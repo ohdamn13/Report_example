@@ -1,0 +1,22 @@
+﻿Project,Proving Stage,External Prover Participation,Proof Marketplace Model,Recent Integrations / Announcements
+Aleph Zero,Production,N/A,Not applicable,Uses DAG‑based consensus with integrated privacy layers; does not offer a separate external proving marketplace.
+Worldcoin,Production,No – centralized infrastructure,Internal system,Relies on its own proof-of-personhood mechanism based on biometric data; no external prover participation.
+Mina,Production,Limited – roles defined by protocol (block producers),"Protocol‑driven, not an open marketplace",Employs recursive SNARKs with fixed block producers; no open external prover market planned.
+Horizen,Production,No – integrated within platform,Internal proving mechanisms,Uses its own proof generation for sidechain security; no external prover market offered.
+StarkNet,Production,No – centralized (managed by StarkWare),Centralized proving via StarkWare’s infrastructure,STARK proofs are solely managed by StarkWare; decentralization is a long‑term discussion.
+Aztec,Production,No – internal proving only,"Internal, self‑managed proving",No external prover integrations announced; proving remains closed and managed internally for privacy.
+Aleo,Testnet/Early Mainnet,Yes – open via a mining/incentive model,Own planned proof marketplace,Designed for open external prover participation with an incentive-based (mining) model.
+zkLink,Testnet/Early Mainnet,Possibly open for external participation,Internal proving system with potential expansion,Cross‑chain zk‑rollup project; hints at exploring external participation but no concrete announcements.
+zkSync,Testnet/Early Mainnet,Mixed – predominantly internal but now opening up,"Internal, with selective external support","Fermah recently announced support for zkSync on Twitter, marking a move toward external prover participation."
+Scroll,Testnet/Early Mainnet,Yes – external provers are already integrated,Decentralized; multiple prover markets in use,Kalypso by Marlin is integrated and actively producing proofs for Scroll V.
+Linea,Testnet/Early Mainnet,Planned; not fully open yet,"Likely to start internally, with future openness",No external integrations publicly announced; roadmap hints at eventual decentralized prover participation.
+Kroma,Testnet / Development,Not currently open,Likely a hybrid approach,Associated with Optimism; details on opening up external prover roles remain to be confirmed.
+Reddio (by Paradigm),Testnet / Development,Not confirmed; appears closed,Internal proving system,Focused on NFT/payment use cases with ZK proofs; proving process not opened to external participants.
+Agglayer (by Polygon),Testnet / Development,Likely permissioned initially,Internal aggregation (with planned gradual openness),Part of Polygon’s scaling suite; full open prover market details still emerging.
+Taiko,Testnet / Experimental,Planned multi‑prover participation (details pending),"Likely internal at first, with later decentralization",ZK‑EVM rollup project; experimental phase with future external prover plans.
+Hyle,Early development / Unclear,Unknown,Unknown,Public details on proving approach remain minimal; no external integration announcements.
+Union,Early development / Unclear,Unknown,Unknown,Little public information available on proving mechanics or external prover opportunities.
+Kakarot,Early development / Unclear,Uses StarkNet’s existing proving infrastructure,Leverages StarkNet’s centralized proving,EVM emulation on StarkNet; relies on StarkNet’s proven centralized system.
+Nil Foundation,Early development / Unclear,Unknown,Unknown,Sparse documentation on proving mechanics; no external integrations publicly announced.
+Zorp (Nockchain),Early development / Unclear,No public details yet,Likely internal,Public documentation remains limited; no external prover integration announced.
+Telos,Mixed / Integrated (not a pure ZK‑rollup),N/A,Uses external ZK solutions in parts,Integrates ZK proofs in certain layers; does not feature a dedicated open prover marketplace.

@@ -1,0 +1,25 @@
+﻿Name,Proof market stage,...,Expectations
+https://docs.beboundless.xyz/,"Discord: “{can join as prover} this year” 
+testnet is up 
+
+P2P, RockawayX, some Filecoin miners on board.","https://x.com/zksanca/status/1872737546146308215
+
+Most promising and the closest to launch. To be chain agnostic. 
+
+From product manager: “https://docs.beboundless.xyz/prove/becoming-a-prover
+
+”We provide all the software to generate proofs across multiple machines, the only new concept to you as a provider will likely be that you need to understand your cost basis for proofs to bid in the market” 
+
+For context, RockawayX participated in our devnet last year, but nobody has started proving yet for our testnet.”",HIgh
+https://linktr.ee/succinctlabs,"Discord: “prover network is last on the roadmap, no more info”","Launched op-succinct stack on Conduit  - op-succinct , plan to launch zkVM on other stacks. ",HIgh
+"https://nexus.xyz/network ",In devnet,Can run prover; No incentive announced.,HIgh
+https://www.lita.foundation/,"No info. ","Develops of Valida proving system. Discord ded. ",HIgh
+https://delphinuslab.com/tutorial/introduction/ (?),Can join prover network. Proof market can be developed in the future.,"Prover https://www.notion.so/HQ-b2a5759e450d462aa157e9698a2e8a78?pvs=21 
+
+From discord: “hardware for a performant zkwasm prover: 4090 + 128G memory will give you about 1M instructions proof in 9.5 seconds: ",Medium
+https://www.zkm.io/,covo in discord (ticket opened ),no answers even in discord support tickets.,Medium
+https://eigen.market/,Unknown,“20 members in telegram group” stage.,Medium
+https://x.com/Pi_Squared_Pi2,Unknown,It’s aggregation layer but there is prover poolhttps://docs.pi2.network/universal-settlement-layer/architecture,Medium
+https://x.com/openvm_org,Unknown,"Axiom and Scroll  teams building this. ",Low
+"https://x.com/powdr_labs (?) ",Unknown,"Developing own zkVM, very early. ",Low
+https://x.com/argumentxyz,Unknown,,Low
