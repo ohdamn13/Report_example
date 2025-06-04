@@ -40,7 +40,6 @@ Dozens of teams are tackling the first challenge head-on with the zkVMs. Instead
 
 Currently, **the** Ethereum roadmap includes partial consensus transition to ZK tech according to Justin **Drake’s** Beam chain proposal and [Vitalik’s Ethereum Roadmap](https://x.com/ercwl/status/1856679876025303426).
 
-![Снимок экрана 2025-02-03 в 14.03.58.png](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-02-03_%D0%B2_14.03.58.png)
 
 By integrating ZK proofs (SNARKs / STARKs) in-protocol, full blocks could be verified without requiring all nodes to process every transaction.
 Before full transition will happen several changes to Consensus Sublayer must happen.
@@ -75,17 +74,13 @@ Risk Zero also invited us to participate in their closed testnet. Expected to ru
 
 # **Market Context: Tipping Point**
 
-![Снимок экрана 2025-01-31 в 17.16.30.png](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-01-31_%D0%B2_17.16.30.png)
 
 ZK research is getting the biggest boost in crypto, with massive capital and talent flowing in. We’re seeing validity proofs for zk-rollups, ZK light clients for bridging, and even Optimistic rollups—like Optimism, Arbitrum, Taiko, and Fuel—integrating zkVMs (Risc0, SP1 by Succinct and many more!) for hybrid proving. Beyond Ethereum, Solana’s leveraging ZK compression to manage state growth, and Sui’s zkLogin lets you create email-based wallets safely without giving up personal data.
 
-![Снимок экрана 2025-01-31 в 17.21.17.png](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-01-31_%D0%B2_17.21.17.png)
 
 Data from Our Network and [zkstats.io](http://zkstats.io/) shows ~1.6M proofs submitted on Ethereum since 2021, with total settlement fees (TSF) topping $60M. TSF(total settlement fees) peaked at $15M in Dec-23, driven by Linea, ZkSync, and Scroll. While these numbers seem modest, **proof generation and verification costs are becoming more efficient and lowering the costs 10x.** Most rollups now use recursive proof aggregation—where one ZKP verifies a batch of ZKPs—cutting down volume and fees on Ethereum - can be seen on the chart below.
 
 Demonstrating usage of the aggregation integration:
-
-![[https://l2beat.com/zk-catalog](https://l2beat.com/zk-catalog)](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-01-31_%D0%B2_17.27.47.png)
 
 [https://l2beat.com/zk-catalog](https://l2beat.com/zk-catalog)
 
@@ -111,23 +106,17 @@ In this competitive environment, proof markets can develop strong advantages to 
     - Blockchain infrastructure and off-chain applications need zero-knowledge proofs to secure or validate computations—examples include rollups, privacy solutions, or bridging protocols.
     - These projects (the “demand side”) must either build their own proof infrastructure or outsource it.
         
-        ![Снимок экрана 2025-01-31 в 18.55.54.png](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-01-31_%D0%B2_18.55.54.png)
-        
-        ![Снимок экрана 2025-01-31 в 18.55.57.png](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-01-31_%D0%B2_18.55.57.png)
-        
-        ![Снимок экрана 2025-01-31 в 18.55.51.png](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-01-31_%D0%B2_18.55.51.png)
+
         
 - **Supply Side (Provers & Infrastructure):**
     - Specialized operators run **compute infrastructure** (GPUs, FPGAs, ASICs) to generate proofs efficiently.
     - Some do this “in-house” (vertically integrated), while others rely on **proof marketplaces** (third-party services that handle the heavy lifting).
-        
-        ![Снимок экрана 2025-01-31 в 18.58.14.png](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-01-31_%D0%B2_18.58.14.png)
-        
+
 - **Aggregation & Verification Layers:**
     - **Aggregators** bundle transactions/operations that need proving.
     - **Verifiers** (smart contracts or off-chain services) check the validity of these proofs on-chain.
         
-        ![Снимок экрана 2025-01-31 в 17.52.01.png](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-01-31_%D0%B2_17.52.01.png)
+    
         
 
 As more protocols require proofs, third-party “prover-as-a-service” platforms are emerging to meet the demand.
@@ -137,10 +126,6 @@ As more protocols require proofs, third-party “prover-as-a-service” platform
 # Ecosystem
 
 ### Here is complete ZK market map made my Electric Capital in the middle of last year:
-
-![Снимок экрана 2025-01-31 в 18.54.35.png](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-01-31_%D0%B2_18.54.35.png)
-
-![Снимок экрана 2025-01-23 в 12.55.29.png](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2025-01-23_%25D0%25B2_12.55.29.png)
 
 Teams building bridges no longer need cryptography experts to craft custom circuits; they can tap into off-the-shelf zkVMs for easy proof generation. This spans all sorts of apps—light clients, oracles, bridges, KYC platforms—pretty much anything.
 
@@ -168,12 +153,6 @@ Teams building bridges no longer need cryptography experts to craft custom circu
     - They may either outsource their proof generation or manage it in-house. We can cover them if source our compute to the versatile Prover Networks described above.
 - **Separate note for Bitcoin L2s that might require zk technology:**
 Risc Zero has already integrated Bitsnark for BTC verification, extending ZK verification to Bitcoin. Expect other vertically integrated marketplaces to follow suit, making a dedicated Bitcoin L2 sector focus unnecessary.
-
-[Vertically integrated proof markets (demand  + supply side)](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/Vertically%20integrated%20proof%20markets%20(demand%20+%20supp%2018be5ce1ac1c81cf8e40c59c0b531719.csv)
-
-[Proving Networks (can plug supply into any demand source)](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/Proving%20Networks%20(can%20plug%20supply%20into%20any%20demand%20%2018be5ce1ac1c819b9222f1d1cf42f485.csv)
-
-[Big ZK L2s, infra (demand source)](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/Big%20ZK%20L2s,%20infra%20(demand%20source)%20190e5ce1ac1c815d8861d09a4de97bdd.csv)
 
 ---
 
@@ -233,7 +212,6 @@ Below is a consolidated table comparing ASICs, FPGAs, GPUs, and VPUs for generat
 - [https://www.ournetwork.xyz/p/on-261-zoomed-in-on-zero-knowledge-proofs](https://www.ournetwork.xyz/p/on-261-zoomed-in-on-zero-knowledge-proofs)
 - [https://dune.com/nebra/zero-knowledge-proof-verification-cost-ethereum?ref=ournetwork.ghost.io](https://dune.com/nebra/zero-knowledge-proof-verification-cost-ethereum?ref=ournetwork.ghost.io)
 
-[The Year Ahead for Infra 2025 - Delphi Digital.pdf](ZK%20Proof%20Supply%20Chain%20Mapping%20the%20Race%20(very%20simpl%2018be5ce1ac1c807eb05ae7ad8f010ca5/The_Year_Ahead_for_Infra_2025_-_Delphi_Digital.pdf)
 
 - [https://x.com/zksanca/status/1872737546146308215](https://x.com/zksanca/status/1872737546146308215)
 - [https://blog.pi2.network/zkvm-benchmarking/](https://blog.pi2.network/zkvm-benchmarking/)
@@ -248,11 +226,4 @@ Similar to the race in AI on who’s LLM is more robust and less consuming we se
 ---
 
 ## Conclusion/CTA:
-
-- **Join the Snarkification of Ethereum via Snarkify** – contribute to a public good aligned with the Ethereum roadmap:
-    - Leverage marketing opportunities.
-    - Stay updated on hardware requirements and trends in Ethereum’s zk ecosystem.
-    - Enhance your dev ops team’s expertise for future operations in the zk market.
-    - Build connections with early leaders in this emerging sector through your contributions.
-- **Join the Risk Zero Testnet:**
-    - Contribute using RTX 4090 GPUs (incentivization details are still unclear—further discussion with the team is recommended).
+...
